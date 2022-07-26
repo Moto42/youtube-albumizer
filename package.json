@@ -1,0 +1,21 @@
+{
+  "name": "youtube-albumizer",
+  "version": "0.1.0",
+  "description": "Terminal program to download a public YouTube playlist and save it as an album of MP3s.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-id3": "^0.2.3",
+    "youtube-mp3-converter": "^1.0.3",
+    "ytdl-mp3": "^1.1.1",
+    "ytfps": "^1.0.6"
+  }
+}
